@@ -53,5 +53,5 @@ make image  PROFILE="xunlong_orangepi-zero" \
                      luci-app-wireguard luci-base luci-compat luci-lib-base luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio kmod-rtl8192cu \
                      adblock luci-app-adblock kmod-fs-squashfs squashfs-tools-unsquashfs squashfs-tools-mksquashfs \
                      kmod-fs-f2fs kmod-fs-vfat git git-http jq" \
-            FILES="${BASEDIR}/files/" \
+            FILES="${BASEDIR}/files/"
             BIN_DIR="${OUTPUT}"
